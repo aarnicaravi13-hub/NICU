@@ -1,6 +1,9 @@
-body{
+ body{
+    background:#1A103D;
+    color:white;
     font-family:Arial, sans-serif;
-    background:#E6E6FA;
+    margin:0;
+}
     color:#333;
     margin:0;
 }
@@ -11,8 +14,10 @@ header{
 }
 
 header h1{
-    color:#7C5CFF;
-    font-size:50px;
+    header h1{
+    color:#C084FC;
+    font-size:52px;
+    text-shadow:0 0 10px #A855F7;
 }
 
 nav{
@@ -38,10 +43,10 @@ p{
     font-size:18px;
 }
 .about-card{
-    background:green;
-    padding:30px;
-    margin:40px auto;
+    background:#2B1D59;
     width:80%;
+    margin:40px auto;
+    padding:35px;
     border-radius:20px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    box-shadow:0 0 20px rgba(168,85,247,0.3);
 }
