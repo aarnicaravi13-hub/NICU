@@ -19,12 +19,12 @@ header{
 }
 
 header h1{
-    header h1{
-    color:#C084FC;
-    font-size:52px;
-    text-shadow:0 0 10px #A855F7;
+    font-size:60px;
+    color:#D8B4FE;
+    text-shadow:
+        0 0 8px #A855F7,
+        0 0 18px #A855F7;
 }
-
 nav{
     text-align:center;
     margin-bottom:40px;
