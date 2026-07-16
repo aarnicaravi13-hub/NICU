@@ -1,14 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
 
-<body>
-
-<h1>Hello World</h1>
-
-<script src="script.js"></script>
-
-</body>
-</html>
