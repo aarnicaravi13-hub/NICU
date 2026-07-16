@@ -55,3 +55,26 @@ p{
     border-radius:20px;
     box-shadow:0 0 20px rgba(168,85,247,0.3);
 }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 50px;
+
+    background:#111;
+}
+
+nav h2{
+    color:white;
+}
+
+nav ul{
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+    color:white;
+}
