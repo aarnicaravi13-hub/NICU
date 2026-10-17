@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarnica Ravi</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aarnu's student portfolio — exploring cybersecurity, web security, and CTFs." />
+  <title>Aarnu | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-    <nav>
-    <h2>Aarnica</h2>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Aarnu home">A<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
 
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
-    </ul>
-</nav>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> STUDENT • CURIOUS BY DEFAULT</p>
+        <h1>Hi, I'm <span>Aarnu.</span></h1>
+        <h2>Computer Science Student <br />&amp; Cybersecurity Enthusiast</h2>
+        <p class="hero-text">Exploring web security, solving challenges, and building my skills one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-quiet" href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <p class="small-note">Currently learning • Always building</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract portrait card">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait-card">
+          <div class="portrait-top"><span></span><span></span><span></span></div>
+          <div class="portrait-illustration">
+            <div class="sun"></div>
+            <div class="hair"></div>
+            <div class="face"></div>
+            <div class="body-shape"></div>
+          </div>
+          <div class="portrait-caption"><span>PROFILE_001</span><span>✦</span></div>
+        </div>
+        <div class="floating-chip chip-one">{" curiosity": true }</div>
+        <div class="floating-chip chip-two"><span class="chip-dot"></span> learning in progress</div>
+      </div>
+    </section>
 
-<header>
-    <h1>Aarnica Ravi 👋</h1>
-    <p>Integrated M.Tech CSE Student</p>
-    <p>Learning • Building • Growing</p>
-</header>
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curious mind. <span>Security mindset.</span></h2>
+        <p>I'm at the beginning of my journey — and excited about what I can learn.</p>
+      </div>
+      <div class="about-grid">
+        <article class="info-card">
+          <span class="card-icon">✦</span>
+          <h3>What I am</h3>
+          <p>A first-year Integrated M.Tech Computer Science student at SREC, Coimbatore.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">⌘</span>
+          <h3>What interests me</h3>
+          <p>Cybersecurity, web security, ethical hacking concepts, and how technology works under the hood.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">↗</span>
+          <h3>How I learn</h3>
+          <p>By experimenting, solving challenges, asking questions, and building small projects.</p>
+        </article>
+      </div>
+    </section>
 
-<nav>
-    <nav>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Skills</a>
-    <a href="#">Contact</a>
-</nav>
 
-    <p>
-        Hi! I'm <strong>Aarnica Ravi</strong>, an Integrated M.Tech CSE student at SREC.
-    </p>
-
-    <p>
-        I'm currently learning web development, programming, and AI. I love building projects that solve real-world problems.
-    </p>
-
-    <p>
-        🚀 My dream is to create technology that helps students discover their interests.
-    </p>
-</section>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-</nav>
-
-<section>
-    <h2>Welcome to My Digital Home</h2>
-
-    <p>
-        Hi! I'm Aarnica, a first-year Integrated M.Tech CSE student at SREC.
-    </p>
-
-    <p>
-        I enjoy learning programming, exploring AI, and building technology that solves real problems.
-    </p>
-
-    <p>
-        🚀 My dream project is <strong>Sago</strong>—a platform that helps students discover their interests and build practical skills.
-    </p>
-</section>
-
-</body>
-</html>
